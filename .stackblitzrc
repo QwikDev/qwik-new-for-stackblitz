@@ -1,4 +1,4 @@
 {
-  "installDependencies": false,
-  "startCommand": "npm create -y qwik@latest empty . --installDeps --force && echo 'Installing dependencies... (this can take a while)' && npm i && echo 'Starting development server...' && npm start"
+  "installDependencies": true,
+  "startCommand": "npm start"
 }

@@ -1,0 +1,4 @@
+{
+  "installDependencies": false,
+  "startCommand": "npm create -y qwik@latest empty app --installDeps --force && mv app/* app/.* . && rmdir app && echo 'Installing dependencies... (this can take a while)' && npm i && echo 'Starting development server...' && npm start"
+}

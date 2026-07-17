@@ -3,7 +3,7 @@
 set -e
 find . ! \( -name .git -o -path './.git/*' -o -name .stackblitzrc -o -name update-repo.sh \) -delete
 
-npm create -y qwik@latest empty app --installDeps --force
+npm create -y qwik@beta empty app --installDeps --force
 mv app/* app/.* .
 rmdir app
 npm i
